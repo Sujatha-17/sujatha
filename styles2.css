@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/kristu-jayanti-college-of-management-and-technology-kjc-bangalore.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Add margin-bottom for spacing */
+}
+
+.form-group.remember-me input {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-links {
+    margin-top: 20px;
+
+}
+#forgotPassword{
+    margin:2rem 0 0 6rem ;
+    color:rgb(95, 139, 220);
+}
+
+.form-links a {
+    color: #2249e7;
+    text-decoration: none;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+    }
+}

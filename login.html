@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom styles -->
+  <style>
+    .login-container {
+      width: 350px; /* Adjusted width */
+      margin: auto;
+      margin-top: 50px;
+      padding: 25px;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    }
+    .login-container .logo {
+      text-align: center;
+      margin-bottom: 10px; /* Reduced margin */
+    }
+    .login-container .login-form {
+      padding: 20px 0;
+    }
+    .login-container .form-group {
+      margin-bottom: 15px; /* Reduced margin */
+    }
+    .login-container .btn-primary {
+      width: 100%;
+    }
+    .login-container .forgot-password {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="login-container">
+      <div class="logo">
+        <img src="LOGIN 1.png" alt="Logo" width="100">
+      </div>
+      <div class="login-form">
+        <h2 class="text-center">Admin Page</h2>
+        <form action="admin.html" method="post">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label" for="rememberMe">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <p class="forgot-password"><a href="">Forgot password?</a></p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (optional if you need JavaScript features) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
